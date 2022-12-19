@@ -8,7 +8,7 @@ int main(){
 	char name[N];
 	int fd;
 	int n;
-	printf("Introdueix el nom del fitxer: ");
+//	printf("Introdueix el nom del fitxer: ");
 	scanf("%s",name);
 	fd = open(name,O_RDONLY);
 	if (fd==-1){
